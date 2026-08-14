@@ -1,0 +1,35 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Secrets and local config (never commit)
+.env
+
+# Database and generated outputs
+bug-bounty-assistant/data/findings.db
+bug-bounty-assistant/data/reports/
+data/findings.db
+data/reports/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor config
+.idea/
+.vscode/
+*.swp
+
+# pytest cache
+.pytest_cache/

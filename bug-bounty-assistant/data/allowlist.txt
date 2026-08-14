@@ -1,0 +1,14 @@
+# Approved scan targets – one entry per line.
+# Each entry may be:
+#   - A bare hostname or IP:   localhost   127.0.0.1
+#   - A domain (matches subs): lab.internal
+#   - A URL prefix:            http://192.168.1.1/api
+#
+# Lines starting with # are comments and are ignored.
+# Blank lines are ignored.
+#
+# WARNING: Only add targets here if you have EXPLICIT WRITTEN AUTHORIZATION
+# to assess them.  Scanning systems without permission is illegal.
+
+localhost
+127.0.0.1
